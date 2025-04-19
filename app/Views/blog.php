@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>DigiSphere | Website dunia teknologi digital dan wawasan pribadi</title>
-    <meta name="description" content="DigiSphere | Website dunia teknologi digital dan wawasan pribadi">
+    <title>DigiSphere | Blog</title>
+    <meta name="description" content="DigiSphere | Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/ikon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <!-- Tempatkan ikon.ico di direktori root -->
 
     <!-- CSS disini -->
@@ -97,7 +97,8 @@
                                     </a>
                                 </div>
                                 <div class="tgmobile__menu-outer">
-                                <!--Menu di sini akan muncul secara otomatis melalui Javascript / Menu yang sama seperti di Header-->                                </div>
+                                    <!--Menu di sini akan muncul secara otomatis melalui Javascript / Menu yang sama seperti di Header-->
+                                </div>
                                 <div class="social-links">
                                     <ul class="list-wrap">
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>

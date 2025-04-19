@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Login | DigiSphere</title>
+  <meta name="description" content="Login ke DigiSphere - Dunia teknologi digital dan wawasan pribadi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="/public/favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/assets/css/animate.min.css">
+  <link rel="stylesheet" href="/public/assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/public/assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/public/assets/css/default-icons.css">
+  <link rel="stylesheet" href="/public/assets/css/unicons.css">
+  <link rel="stylesheet" href="/public/assets/css/fonts.css">
+  <link rel="stylesheet" href="/public/assets/css/spacing.css">
+  <link rel="stylesheet" href="/public/assets/css/main.css">
+
+  <script src="/public/assets/js/tg-page-head.js"></script>
+</head>
+<body>
+  <!-- Area Login -->
+  <section class="banner-area bg-padding position-relative">
+    <div class="banner__background-wrap">
+      <div class="background" data-background="/public/assets/img/bg/gradient_bg01.png"></div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-5">
+          <div class="banner__content p-4 shadow">
+            <h1 class="text-center mb-3">Selamat Datang!</h1>
+            <p class="text-center mb-4">Silakan login ke akun DigiSphere Anda</p>
+            <form id="loginForm">
+              <div class="form-group mb-3">
+                <label for="identifier">Username atau Email</label>
+                <input type="text" class="form-control" id="identifier" placeholder="Masukkan username atau email" required>
+              </div>
+              <div class="form-group mb-3">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Masukkan password" required>
+              </div>
+              <div class="text-center mb-3">
+                <button type="submit" class="btn gradient-btn"><span>Login</span></button>
+              </div>
+              <div class="text-center">
+                <a href="#">Lupa Password?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="/public/assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="/public/assets/js/bootstrap.min.js"></script>
+  <script src="/public/assets/js/isotope.pkgd.min.js"></script>
+  <script src="/public/assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/public/assets/js/swiper-bundle.min.js"></script>
+  <script src="/public/assets/js/jquery.easing.js"></script>
+  <script src="/public/assets/js/anime.min.js"></script>
+  <script src="/public/assets/js/anime-helper.js"></script>
+  <script src="/public/assets/js/anime-helper-defined-timelines.js"></script>
+  <script src="/public/assets/js/main.js"></script>
+
+  <!-- Script Validasi -->
+  <script>
+    $(document).ready(function () {
+      $('#loginForm').on('submit', function (e) {
+        e.preventDefault();
+        const id = $('#identifier').val();
+        const pass = $('#password').val();
+        if (!id || !pass) {
+          alert('Isi semua kolom dulu ya!');
+        } else {
+          alert('Login berhasil! (simulasi)');
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

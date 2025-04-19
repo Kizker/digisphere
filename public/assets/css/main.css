@@ -5525,4 +5525,8 @@ input[type=color] {
   color: #fff;
 }
 
+.bg-padding {
+  padding: 100px 0 100px;
+}
+
 /*# sourceMappingURL=main.css.map */

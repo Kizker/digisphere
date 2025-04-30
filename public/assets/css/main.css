@@ -5529,4 +5529,103 @@ input[type=color] {
   padding: 100px 0 100px;
 }
 
+/* Table Dashboard */
+
+.table-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dee2e6;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.custom-table th {
+  background: #a0a0a0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.custom-table td {
+  text-align: center;
+}
+
+/* Rata kanan-kiri untuk kolom konten */
+.custom-table td.content-cell {
+  text-align: justify;
+}
+
+/* Radius ujung */
+.custom-table th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.custom-table th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.custom-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.custom-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+/* Icon Dashboard */
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 18px;
+  transition: 0.3s;
+  border: none;
+  color: #fff;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-icon:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.konten-terpotong {
+  display: -webkit-box;
+  display: box; /* optional untuk lebih kompatibel */
+  -webkit-line-clamp: 3;
+  line-clamp: 3; /* versi standar */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* konten */
+.konten-artikel p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+
 /*# sourceMappingURL=main.css.map */
